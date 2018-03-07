@@ -1,0 +1,23 @@
+{
+  "name": "h5gapp",
+  "description": "A HTML5 game app project.",
+  "main": "index.js",
+  "authors": [
+    "Tony Lin (tonylinx@qq.com)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "html5",
+    "game",
+    "app"
+  ],
+  "homepage": "https://github.com/sparksystems",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./src/lib",
+    "test",
+    "tests"
+  ]
+}

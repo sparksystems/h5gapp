@@ -1,0 +1,35 @@
+{
+  "name": "h5gapp",
+  "displayName": "HTML5-Game-App",
+  "version": "0.0.1",
+  "description": "A HTML5 game app project.",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "dev": "gulp"
+  },
+  "author": "Tony Lin (tonylinx@qq.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparksystems/h5gapp.git"
+  },
+  "keywords": ["html5", "game", "app"],
+  "bugs": {
+    "url": "https://github.com/sparksystems/h5gapp/issues"
+  },
+  "homepage": "https://github.com/sparksystems/h5gapp#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1"
+  }
+}
