@@ -58,8 +58,8 @@ typings/
 .env
 
 # build output
-dist
+dist/
 
 # webstorm project runtime data
-.idea
-.vscode
+.idea/
+.vscode/
