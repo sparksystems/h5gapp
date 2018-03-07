@@ -59,6 +59,7 @@ typings/
 
 # build output
 dist/
+www/
 
 # webstorm project runtime data
 .idea/

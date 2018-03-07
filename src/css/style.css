@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+body {
+  font-family: Consolas, serif;
+  font-size: 1em;
+  color: #333;
+  background-color: #f8f8f2;
+}
+
+.mark-text {
+  padding: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: transparent;
+  white-space: nowrap;
+  color: #999;
+  font-size: .8em;
+  font-weight: bold;
+  text-transform: capitalize;
+  z-index: 10000;
+}
+
+.canvas {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #fff;
+}
+
+.h-line {
+  position: fixed;
+  left: 0;
+  top: 500px;
+  width: 100vw;
+  height: 1px;
+  background: #ff000033;
+  z-index: 1000;
+}
+
+.v-line {
+  position: fixed;
+  top: 0;
+  left: 500px;
+  width: 1px;
+  height: 100vh;
+  background: #ff000033;
+  z-index: 1000;
+}
