@@ -11,14 +11,14 @@ body {
   background-color: #f8f8f2;
 }
 
-.mark-text {
+.marker {
   padding: 5px;
   position: fixed;
   left: 0;
   bottom: 0;
   background: transparent;
   white-space: nowrap;
-  color: #999;
+  color: #ccc;
   font-size: .8em;
   font-weight: bold;
   text-transform: capitalize;

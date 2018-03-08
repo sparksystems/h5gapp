@@ -8,7 +8,7 @@ function autoSize () {
   bh = window.innerHeight;
   can.width = bw;
   can.height = bh;
-  document.querySelector(".mark-text").innerHTML = bw + "&times;" + bh + " html5 game app";
+  document.querySelector(".marker").innerHTML = " html5 game web app" + " (screen: " + bw + "&times;" + bh + ")";
   drawCanvas();
 }
 window.onresize = autoSize;

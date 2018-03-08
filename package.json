@@ -23,7 +23,11 @@
     "type": "git",
     "url": "git+https://github.com/sparksystems/h5gapp.git"
   },
-  "keywords": ["html5", "game", "app"],
+  "keywords": [
+    "html5",
+    "game",
+    "app"
+  ],
   "bugs": {
     "url": "https://github.com/sparksystems/h5gapp/issues"
   },
