@@ -1,55 +1,100 @@
 * {
-  margin: 0;
-  padding: 0;
-  line-height: 1;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
 }
 
 body {
-  font-family: Consolas, serif;
-  font-size: 1em;
-  color: #333;
-  background-color: #f8f8f2;
+    width: 100vw;
+    height: 100vh;
+    font-family: Consolas, serif;
+    font-size: 1em;
+    color: #333;
+    background-color: #f8f8f2;
+    overflow: hidden;
 }
 
 .marker {
-  padding: 5px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  background: transparent;
-  white-space: nowrap;
-  color: #ccc;
-  font-size: .8em;
-  font-weight: bold;
-  text-transform: capitalize;
-  z-index: 10000;
+    padding: 6px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    white-space: nowrap;
+    color: #999;
+    background: #eeeeee99;
+    font-size: .8em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    z-index: 10000;
+    opacity: 1;
+}
+
+.marker.active {
+    opacity: 0.3;
 }
 
 .canvas {
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  left: 0;
-  top: 0;
-  background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #fff;
+    background-image: repeating-linear-gradient(45deg, #ffffff66, #ffffff66 50%, #eeeeee66 50%, #eeeeee66), repeating-linear-gradient(-45deg, #ffffff66, #ffffff66 50%, #eeeeee66 50%, #eeeeee66);
+    background-size: 4px;
+    z-index: 1;
 }
 
-.h-line {
-  position: fixed;
-  left: 0;
-  top: 500px;
-  width: 100vw;
-  height: 1px;
-  background: #ff000033;
-  z-index: 1000;
+.h-line,
+.v-line {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    width: 100vw;
+    height: 1px;
+    background: #ff999966;
+    z-index: 1000;
 }
 
 .v-line {
-  position: fixed;
-  top: 0;
-  left: 500px;
-  width: 1px;
-  height: 100vh;
-  background: #ff000033;
-  z-index: 1000;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100vh;
+}
+
+.btn-gp {
+    list-style: none;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 50%;
+    z-index: 10000;
+}
+
+.btn-gp .btn {
+    list-style: none;
+    margin: 6px;
+    padding: 4px 8px;
+    display: block;
+    color: #666;
+    border: 1px solid #999;
+    border-radius: 3px;
+    /* background: #ffffff33; */
+    cursor: pointer;
+}
+
+.btn-gp .btn:hover {
+    color: #000;
+    background: #33333333;
+    border: 1px solid #00000099;
+}
+
+.btn-gp .btn.active {
+    color: #fff;
+    background: #00000099;
+    border: 1px solid #000000cc;
 }
