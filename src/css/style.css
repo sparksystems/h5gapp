@@ -14,27 +14,30 @@ body {
     overflow: hidden;
 }
 
-.marker {
-    padding: 6px;
+.debug {
+    background: #00000066;
     position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
-    background: transparent;
-    white-space: nowrap;
-    color: #999;
-    background: #eeeeee99;
-    font-size: .8em;
-    font-weight: bold;
-    text-align: center;
-    text-transform: capitalize;
-    cursor: pointer;
     z-index: 10000;
-    opacity: 1;
 }
 
-.marker.active {
-    opacity: 0.3;
+.debug .info {
+    padding: 6px 8px;
+    color: #99ffcccc;
+}
+
+.debug .mark {
+    padding: 6px 8px;
+    white-space: nowrap;
+    color: #cccccc99;
+    background: #00000033;
+    font-size: .8em;
+    font-weight: bold;
+    text-align: right;
+    text-transform: capitalize;
+    cursor: pointer;
 }
 
 .canvas {
@@ -43,7 +46,7 @@ body {
     top: 0;
     background: #fff;
     background-image: repeating-linear-gradient(45deg, #ffffff66, #ffffff66 50%, #eeeeee66 50%, #eeeeee66), repeating-linear-gradient(-45deg, #ffffff66, #ffffff66 50%, #eeeeee66 50%, #eeeeee66);
-    background-size: 4px;
+    background-size: 8px;
     z-index: 1;
 }
 
